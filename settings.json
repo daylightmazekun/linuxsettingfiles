@@ -1,0 +1,98 @@
+{
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.format.settings.url": "https://raw.githubusercontent.com/mkkhedawat/java-formatter-configuration/master/eclipse-java-mansa-style.xml",
+    "java.format.settings.profile": "mansa",
+    //字体大小
+    "editor.fontSize": 20,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro",
+    "python.jediEnabled": false,
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.otherModesKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "Z",
+                "Z"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.files.save",
+                    "args": []
+                },
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        }
+    ],
+    "vim.autoswitchinputmethod.enable": true,
+    "vim.autoswitchinputmethod.defaultIm": "1033",
+    "vim.autoswitchinputmethod.obtainIMcmd": "C:\\Users\\g44944\\path\\inputmethod\\im-select.exe",
+    "vim.autoswitchinputmethod.switchIMcmd": "C:\\Users\\g44944\\path\\inputmethod\\im-select.exe {im}",
+    //字体设置
+    "editor.fontFamily": "Consolas",
+    "files.autoSave": "onFocusChange",
+    "java.codeGeneration.toString.codeStyle": "STRING_BUILDER_CHAINED",
+    "workbench.activityBar.visible": false,
+    "python.insidersChannel": "off",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorCustomizations": {
+        //设置用户选中代码段的颜色 
+        "editor.selectionBackground": "#ff99",
+            //搜索匹配的背景色
+        "editor.findMatchBackground": "#ff9900",
+        "editor.findMatchHighlightBackground": "#ff99",
+        "editor.findRangeHighlightBackground": "#ff99"
+
+    },
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "explorer.confirmDelete": false,
+}
